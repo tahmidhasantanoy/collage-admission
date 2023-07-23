@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import Collages from "../Pages/Collages/Collages";
 import Admission from "../Pages/Admission/Admission";
 import MyCollage from "../Pages/MyCollage/MyCollage";
+import Login from "../Pages/Login/Login";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
         path: "/mycollage",
         element: <MyCollage />,
       },
+      {
+        path : "/login",
+        element : <Login/>
+      }
     ],
   },
 ]);
